@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainView</class>
+ <widget class="QWidget" name="mainView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="showworkmode">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>273</y>
+     <width>364</width>
+     <height>115</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/zl.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="roomTemp">
+   <property name="geometry">
+    <rect>
+     <x>597</x>
+     <y>108</y>
+     <width>345</width>
+     <height>327</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/wd.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_eng">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>531</y>
+     <width>305</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/hd.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>230</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>能量总数</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_fy">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>108</y>
+     <width>385</width>
+     <height>138</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/fy.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="state">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>406</y>
+     <width>103</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/gzz.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_off">
+   <property name="geometry">
+    <rect>
+     <x>864</x>
+     <y>532</y>
+     <width>78</width>
+     <height>78</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/kg.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1080</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/yonghu.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>502</x>
+     <y>532</y>
+     <width>305</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/msg_2.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_money">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>140</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>true</bool>
+   </property>
+   <property name="digitCount">
+    <number>6</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_en">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>540</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>true</bool>
+   </property>
+   <property name="digitCount">
+    <number>6</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_low">
+   <property name="geometry">
+    <rect>
+     <x>597</x>
+     <y>455</y>
+     <width>70</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>true</bool>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_high">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>455</y>
+     <width>70</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>true</bool>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_up">
+   <property name="geometry">
+    <rect>
+     <x>695</x>
+     <y>435</y>
+     <width>37</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/tg.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_down">
+   <property name="geometry">
+    <rect>
+     <x>816</x>
+     <y>458</y>
+     <width>37</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/td.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_worktep">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>455</y>
+     <width>70</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>false</bool>
+   </property>
+   <property name="digitCount">
+    <number>2</number>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Filled</enum>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_roomtep">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>170</y>
+     <width>281</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>true</bool>
+   </property>
+   <property name="digitCount">
+    <number>4</number>
+   </property>
+   <property name="value" stdset="0">
+    <double>0.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="windspeed">
+   <property name="geometry">
+    <rect>
+     <x>286</x>
+     <y>406</y>
+     <width>235</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/ds.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>bg</zorder>
+  <zorder>roomTemp</zorder>
+  <zorder>label_eng</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_fy</zorder>
+  <zorder>state</zorder>
+  <zorder>pushButton_off</zorder>
+  <zorder>showworkmode</zorder>
+  <zorder>label</zorder>
+  <zorder>lcdNumber_money</zorder>
+  <zorder>lcdNumber_en</zorder>
+  <zorder>lcdNumber_low</zorder>
+  <zorder>lcdNumber_high</zorder>
+  <zorder>pushButton_up</zorder>
+  <zorder>pushButton_down</zorder>
+  <zorder>lcdNumber_worktep</zorder>
+  <zorder>lcdNumber_roomtep</zorder>
+  <zorder>windspeed</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

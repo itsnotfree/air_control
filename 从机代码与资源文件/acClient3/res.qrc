@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>pic/an_kg.jpg</file>
+        <file>pic/denglu.jpg</file>
+        <file>pic/dl.jpg</file>
+        <file>pic/ds.jpg</file>
+        <file>pic/fy.jpg</file>
+        <file>pic/gs.jpg</file>
+        <file>pic/gzz.jpg</file>
+        <file>pic/hd.jpg</file>
+        <file>pic/kg.jpg</file>
+        <file>pic/msg_1.jpg</file>
+        <file>pic/msg_2.jpg</file>
+        <file>pic/wd.jpg</file>
+        <file>pic/xmz.jpg</file>
+        <file>pic/yonghu.jpg</file>
+        <file>pic/zl.jpg</file>
+        <file>pic/zr.jpg</file>
+        <file>pic/zs.jpg</file>
+        <file>pic/jx.jpg</file>
+        <file>pic/td.jpg</file>
+        <file>pic/tg.jpg</file>
+        <file>pic/zg_zd.jpg</file>
+        <file>pic/效果图_登录.jpg</file>
+        <file>pic/效果图_用户.jpg</file>
+    </qresource>
+</RCC>
